@@ -41,6 +41,17 @@ export const projects = [
       "ReactJs, TMDB API, Redux, Firebase Authentication, CSS, HTML, Javascript",
     view: "https://sammy-netflixclone.netlify.app/",
   },
+  {
+    title: "RL-Company Shop",
+    img_url:
+      "https://res.cloudinary.com/rlshop/image/upload/v1701393400/portfolio/Screenshot_from_2023-12-01_04-14-55_ulntlc.png",
+    description:
+      "A client (wholeseller) contracted me to build them an eccommerse website that would give him the competitive advantage of being able to attend his client online and create his online business presence. Still working on the project and am a few modules to completion.",
+
+    technologies:
+      "Frontend ( ReactJs,Bootstrap, Redux, CSS, HTML, Javascript), Backend( Nodejs, MongoDB, Expressjs)",
+    status: "In Progress.",
+  },
 ];
 
 export const skills = [
@@ -88,5 +99,4 @@ export const skills = [
     id: "10",
     skill: "Learning Springboot and MYSQL",
   },
-  
 ];

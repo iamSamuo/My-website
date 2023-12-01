@@ -23,7 +23,10 @@ const Projects = () => {
               <p className="card-text">{project.description}</p>
               <hr />
               <p className="card-text">{project.technologies}</p>
-              <a href={project.view} className="btn btn-warning">
+              <a
+                href={project.view && project.view}
+                className="btn btn-warning"
+              >
                 View Project
               </a>
             </div>
