@@ -25,7 +25,7 @@ const Projects = () => {
               <p className="card-text">{project.technologies}</p>
               {project.view ? (
                 <a
-                  href={project.view && project.view}
+                  href={project.view}
                   className="btn btn-warning"
                 >
                   View Project
