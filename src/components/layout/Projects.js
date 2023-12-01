@@ -23,12 +23,16 @@ const Projects = () => {
               <p className="card-text">{project.description}</p>
               <hr />
               <p className="card-text">{project.technologies}</p>
-              <a
-                href={project.view && project.view}
-                className="btn btn-warning"
-              >
-                View Project
-              </a>
+              {project.view ? (
+                <a
+                  href={project.view && project.view}
+                  className="btn btn-warning"
+                >
+                  View Project
+                </a>
+              ) : (
+                <h4 className={(style = { color: "red" })}>{project.status}</h4>
+              )}
             </div>
           </div>
         ))}
