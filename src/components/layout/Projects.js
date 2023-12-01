@@ -24,14 +24,11 @@ const Projects = () => {
               <hr />
               <p className="card-text">{project.technologies}</p>
               {project.view ? (
-                <a
-                  href={project.view}
-                  className="btn btn-warning"
-                >
+                <a href={project.view} className="btn btn-warning">
                   View Project
                 </a>
               ) : (
-                <h4 className={(style = { color: "red" })}>{project.status}</h4>
+                <h4 style={{ color: "red" }}>{project.status}</h4>
               )}
             </div>
           </div>
